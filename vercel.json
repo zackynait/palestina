@@ -1,0 +1,22 @@
+{
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.7.3"
+    }
+  },
+  "routes": [
+        { "src": "/aiuto", "dest": "/help.html" },
+         { "src": "/m", "dest": "/m/ma.html" },
+     { "src": "/maroc", "dest": "/maroc.html" },
+      { "src": "/pl", "dest": "/src/planet.html" },
+     { "src": "/tree", "dest": "/api/tree.html" },
+    { "src": "/tr", "dest": "/tr.html" },
+    { "src": "/(.*)", "dest": "/help.html" }
+
+  ],
+  "build": {
+    "env": {
+      "NOW_PHP_DEBUG": "1"
+    }
+  }
+}
