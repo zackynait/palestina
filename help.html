@@ -37,6 +37,86 @@
         <h1 class="special">ZAK is BACK!<br><span class="minText"></span></h1>
   </div>
 </div>
+
+<div class="lettera">
+	
+  
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .letter-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 80%;
+            margin: auto;
+            background-color: #f9f9f9;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #letter-text {
+            white-space: pre-wrap; /* preserves formatting */
+            word-wrap: break-word;
+            margin-bottom: 20px;
+        }
+    </style>
+
+
+    <div class="letter-container">
+        <h2>Lettera contro le sanzioni alla CPI</h2>
+        <div id="letter-text">
+            Oggetto: Opposizione alle Sanzioni contro la Corte Penale Internazionale<br><br>
+
+            Egregio/a Senatore/Deputato [Nome],<br><br>
+
+            Mi rivolgo a Lei come cittadino italiano preoccupato per le sanzioni minacciate contro la Corte Penale Internazionale (CPI). L’Italia ha sempre sostenuto i principi di giustizia internazionale e diritti umani, valori che la CPI incarna. Le sanzioni contro la Corte non solo minano la sua indipendenza, ma rappresentano una grave minaccia per la giustizia globale e per la nostra posizione internazionale.<br><br>
+
+            <strong>Perché opporsi alle sanzioni:</strong><br>
+            <ul>
+                <li><strong>Difesa dei diritti umani:</strong> La CPI è un pilastro contro l’impunità per crimini di guerra e crimini contro l'umanità. Le sanzioni compromettono il nostro impegno per una giustizia universale che protegga tutte le vittime di atrocità, indipendentemente dalla loro nazionalità.</li>
+                <li><strong>Rilevanza globale:</strong> L’Italia ha un ruolo cruciale nel sostenere un sistema di giustizia che promuove pace e stabilità internazionale. Non possiamo permettere che le pressioni esterne indeboliscano la nostra posizione. L’azienda Leonardo ha già incrementato abbastanza il suo fatturato; fare concessioni agli Stati Uniti per un sollievo a breve termine indebolirà la nostra credibilità internazionale.</li>
+                <li><strong>Credibilità dell'Italia:</strong> Come Paese fondatore dello Statuto di Roma, dobbiamo difendere la CPI, proteggendo così la nostra reputazione internazionale. Compiacere gli americani ora non farà altro che compromettere la nostra integrità a lungo termine, facendo diventare l'Italia complice dei prossimi massacri, invece di essere un faro di giustizia.</li>
+            </ul>
+            <strong>Il momento di agire è ora.</strong> Rompere il tabù sulla Palestina è essenziale per la nostra credibilità internazionale. Non è mai troppo tardi per fare la cosa giusta.<br><br>
+
+            Le chiedo di impegnarsi per opporsi alle sanzioni e garantire che l’Italia continui a essere una voce forte per la giustizia internazionale.<br><br>
+
+            [Tuo Nome]
+        </div>
+        <button onclick="copyText()">Copia il testo</button>
+    </div>
+
+    <script>
+        function copyText() {
+            const textToCopy = document.getElementById("letter-text").innerText;
+            navigator.clipboard.writeText(textToCopy).then(function() {
+                alert("Testo copiato negli appunti!");
+            }).catch(function(err) {
+                alert("Errore nel copiare il testo: " + err);
+            });
+        }
+    </script>
+
+</div>
+
+
+
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html, body { 
